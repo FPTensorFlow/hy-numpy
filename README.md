@@ -61,4 +61,4 @@ array([ 5.1,  1.4])
 
 ```
 => 
-![](/draw_circle.png)
+![](/draw_circle.png =25x25)
