@@ -32,5 +32,13 @@ array([ 5.1,  1.4])
 ```
 * 3. 用matplotlib绘图
 ```clojure
-
+=> (import [matplotlib.pyplot :as plt])
+=> (plt.plot [1 2 4 8])
+[<matplotlib.lines.Line2D object at 0x10accb090>]
+=> (plt.xlabel "x")
+<matplotlib.text.Text object at 0x10a261dd0>
+=> (plt.ylabel "y")
+<matplotlib.text.Text object at 0x10a28ac90>
+=> (plt.savefig "hy-test.png")
+=>
 ```
