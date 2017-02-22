@@ -61,4 +61,4 @@ array([ 5.1,  1.4])
 
 ```
 => 
-![](https://raw.githubusercontent.com/FPTensorFlow/hy-numpy/master/draw_circle.png =25x25)
+![](http://blog.nanguage.org/wordpress/wp-content/uploads/2016/12/happyhackwhy.png =250x250)
