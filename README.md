@@ -60,7 +60,5 @@ array([ 5.1,  1.4])
 => (.text plt 0.5 0.5 (.upper "happy hack with hy!") :va "center" :ha "center")
 <matplotlib.text.Text object at 0x104b54190>
 => (.show plt)
-
+;; 详情看draw_circle.png
 ```
-=> 
-![](/draw_circle.png)
