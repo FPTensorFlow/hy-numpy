@@ -42,3 +42,23 @@ array([ 5.1,  1.4])
 => (plt.savefig "hy-test.png")
 =>
 ```
+```clojure
+=> (import [matplotlib [pyplot :as plt]])
+=> (import time)
+=> (.xkcd plt)
+<matplotlib.rc_context object at 0x10667ba10>
+=> (def (, fig, ax) (.subplots plt))
+(<matplotlib.figure.Figure object at 0x1057b1b50>, <matplotlib.axes._subplots.AxesSubplot object at 0x1067be8d0>)
+=> (defn draw-circle [r0 r-max r-step]
+...   (setv r r0)
+...   (if (< r r-max) (do (-> (.Circle plt (, 0.5 0.5) r :color "black" :fill False) (ax.add-artist))
+...       (setv r (+ r r-step))
+...       (draw-circle r r-max r-step))))
+=> (draw-circle 0.2 1 0.02)
+=> (.text plt 0.5 0.5 (.upper "happy hack with hy!") :va "center" :ha "center")
+<matplotlib.text.Text object at 0x104b54190>
+=> (.show plt)
+
+```
+=> 
+![](/draw_circle.png)
