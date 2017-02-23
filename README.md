@@ -1,4 +1,4 @@
-## Numpy, Pandas, Matplotlib in Hylang
+## Numpy, Pandas, Matplotlib, SciPy in Hylang
 
 ### [python-numpy-tutorial](http://cs231n.github.io/python-numpy-tutorial/)
 
